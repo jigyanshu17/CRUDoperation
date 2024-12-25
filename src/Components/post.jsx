@@ -71,7 +71,7 @@ const Post = () => {
 
   return (
     <section className="posts-section">
-      <h1 className="posts-heading"><Postsss></Postsss></h1>
+      <h1 className="posts-heading">posts</h1>
       <CreatePostForm
         onPostCreated={handleCreatePost}
         onPostUpdated={handleUpdatePost}
